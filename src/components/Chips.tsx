@@ -12,7 +12,7 @@ const Chips: React.ForwardRefRenderFunction<HTMLDivElement, ChipsProps> = ({ lab
   <div className={`chip ${isLast ? 'lastChip' : ''}`} ref={ref}>
     <img className='profileImage mg4' src={Img} alt='' />
     <p className='mg4'>{label}</p>
-    <MdCancel className='mg4' onClick={onRemove} />
+    <MdCancel className='mg4' style={{ cursor: 'pointer' }} onClick={onRemove} />
   </div>
 );
 

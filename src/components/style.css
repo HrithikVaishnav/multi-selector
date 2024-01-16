@@ -23,6 +23,24 @@
     position: absolute;
     border: 1px solid black;
     width: 300px;
+    max-height: 300px;
+    overflow-y: auto;
+
+    scrollbar-width: thin;
+    scrollbar-color: #1b18c9 #dbdff1;
+    
+    &::-webkit-scrollbar {
+        width: 4px;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: #1b18c9;
+    }
+    &::-webkit-scrollbar-thumb:hover {
+        background-color: #1b18c9;
+    }
+    &::-webkit-scrollbar-track {
+        background-color: #e0e0fe;
+    }
 }
 .customOption {
     display: flex;
