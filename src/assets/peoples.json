@@ -1,0 +1,22 @@
+[
+    { "value": "john_doe", "label": "John Doe", "email": "john.doe@example.com" },
+    { "value": "jane_smith", "label": "Jane Smith", "email": "jane.smith@example.com" },
+    { "value": "bob_jones", "label": "Bob Jones", "email": "bob.jones@example.com" },
+    { "value": "alice_white", "label": "Alice White", "email": "alice.white@example.com" },
+    { "value": "charlie_brown", "label": "Charlie Brown", "email": "charlie.brown@example.com" },
+    { "value": "emma_davis", "label": "Emma Davis", "email": "emma.davis@example.com" },
+    { "value": "eric_miller", "label": "Eric Miller", "email": "eric.miller@example.com" },
+    { "value": "olivia_wilson", "label": "Olivia Wilson", "email": "olivia.wilson@example.com" },
+    { "value": "jackson_clark", "label": "Jackson Clark", "email": "jackson.clark@example.com" },
+    { "value": "lily_thomas", "label": "Lily Thomas", "email": "lily.thomas@example.com" },
+    { "value": "michael_jenkins", "label": "Michael Jenkins", "email": "michael.jenkins@example.com" },
+    { "value": "sophia_hill", "label": "Sophia Hill", "email": "sophia.hill@example.com" },
+    { "value": "david_carter", "label": "David Carter", "email": "david.carter@example.com" },
+    { "value": "grace_murphy", "label": "Grace Murphy", "email": "grace.murphy@example.com" },
+    { "value": "ryan_evans", "label": "Ryan Evans", "email": "ryan.evans@example.com" },
+    { "value": "ava_robinson", "label": "Ava Robinson", "email": "ava.robinson@example.com" },
+    { "value": "luke_thompson", "label": "Luke Thompson", "email": "luke.thompson@example.com" },
+    { "value": "hannah_baker", "label": "Hannah Baker", "email": "hannah.baker@example.com" },
+    { "value": "owen_smith", "label": "Owen Smith", "email": "owen.smith@example.com" },
+    { "value": "mia_martin", "label": "Mia Martin", "email": "mia.martin@example.com" }
+]

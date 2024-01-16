@@ -1,0 +1,83 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    margin: 10px;
+}
+.inputContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    max-width: 600px;
+}
+.customInput {
+    border: none;
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.optionsList {
+    position: absolute;
+    border: 1px solid black;
+    width: 300px;
+}
+.customOption {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    cursor: pointer;
+}
+.optionLabel {
+    font-size: 16px;
+}
+.optionEmail {
+    font-size: 12px;
+}
+/* Chips Style */
+.chip {
+    display: flex;
+    align-items: center;
+    background-color: #e0e0e0;
+    border-radius: 16px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    padding: 4px 8px;
+}
+.chipsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 8px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+.mg4 {
+    margin: 4px;
+}
+.profileImage {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+.lastChip {
+    border: 2px solid black;
+}
+
+@media only screen and (max-width: 750px) {
+    .mainContainer {
+        width: 100%;
+    }
+    .customOption {
+        padding: 8px;
+    }
+    .inputContainer {
+        width: 100%;
+    }
+}
